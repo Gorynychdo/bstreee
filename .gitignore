@@ -1,0 +1,8 @@
+# Binaries for programs and plugins
+build/
+
+# GoLand
+.idea/
+
+# Test coverage
+cover.out
