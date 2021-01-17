@@ -55,7 +55,7 @@ func (t *Tree) dump() []int {
 }
 
 func (t *Tree) log(mes string, value int) {
-    log.WithFields(log.Fields{
+    go log.WithFields(log.Fields{
         "package": "bstree",
         "value":   value,
         "dump":    t.dump(),
